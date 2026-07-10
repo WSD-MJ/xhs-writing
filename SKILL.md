@@ -1,5 +1,5 @@
 ---
-name: red-note-generator
+name: xhs-writing
 description: >
   AI-powered Xiaohongshu (RED) note content generator. Creates complete RED
   style notes from topic and style requirements. Requires API key from
