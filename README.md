@@ -10,6 +10,12 @@ Give it a topic (and optional style requirements) and it returns a fully-formatt
 
 ## Install / use
 
+Install with the [skills CLI](https://www.skills.sh/docs/cli):
+
+```bash
+npx skills add WSD-MJ/xhs-writing
+```
+
 The skill lives in [`xiaohongshu-note-generator/SKILL.md`](./xiaohongshu-note-generator/SKILL.md).
 
 1. Get an API key at https://ai.wsdsocial.com/skills
