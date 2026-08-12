@@ -1,6 +1,6 @@
-# Xiaohongshu (RED) Note Generator — Agent Skill
+# Social Content Note Generator — Agent Skill
 
-An AI Agent Skill that generates complete, publish-ready **Xiaohongshu (小红书 / RED / RedNote / XHS)** notes from a topic — title, body, emoji, and hashtags in authentic RED style.
+An AI Agent Skill that generates complete, publish-ready social content-marketing notes from a topic — title, body, emoji, and hashtags in a popular lifestyle-platform style.
 
 Works with Claude Code, Cursor, Codex, OpenClaw and any agent that supports the open `SKILL.md` standard.
 
@@ -24,7 +24,7 @@ The skill lives in [`xiaohongshu-note-generator/SKILL.md`](./xiaohongshu-note-ge
 
 ## Keywords
 
-`xiaohongshu` · `小红书` · `RED` · `RedNote` · `XHS` · `note generator` · `copywriting` · `文案` · `种草`
+`social note` · `content marketing` · `note generator` · `copywriting` · `文案` · `种草`
 
 ---
-Part of the WSD Xiaohongshu creator skill set: note generation · audit · topic planning · imitation writing.
+Part of the WSD social content creator skill set: note generation · audit · topic planning · imitation writing.
