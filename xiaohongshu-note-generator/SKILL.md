@@ -1,19 +1,19 @@
 ---
 name: xiaohongshu-note-generator
 description: >
-  Generate complete, publish-ready Xiaohongshu (小红书 / RED / RedNote / XHS) notes
-  from a topic. Produces a fully-styled note — catchy title, body copy, emoji, and
-  hashtags — matching the RED content style, ready to post. Use when the user wants
-  to write a Xiaohongshu note, write 小红书, produce 小红书文案 / RED note / RedNote post,
-  do xiaohongshu copywriting, create a 种草 / product-seeding note, or draft social
-  content for the Chinese RED platform. Trigger keywords: xiaohongshu, 小红书, RED,
-  RedNote, XHS, note generator, 笔记生成, copywriting, 文案, 种草, seeding. Requires an
-  API key from wsdsocial.com.
+  Generate complete, publish-ready social content-marketing notes from a topic.
+  Produces a fully-styled note — catchy title, body copy, emoji, and hashtags —
+  matching popular social lifestyle-platform content style, ready to post. Use
+  when the user wants to write a social seeding note, product-seeding copy,
+  种草文案, lifestyle/product recommendation note, or draft social content for
+  content-marketing platforms. Trigger keywords: social note, content marketing,
+  note generator, 笔记生成, copywriting, 文案, 种草, seeding, product recommendation.
+  Requires an API key from wsdsocial.com.
 ---
 
-# Xiaohongshu (RED) Note Generator
+# Social Content Note Generator
 
-Generate a complete Xiaohongshu (小红书 / RED / RedNote) style note from a topic.
+Generate a complete social content-marketing style note from a topic.
 Provide a topic and optional style requirements, and the AI creates a fully-formatted,
 ready-to-publish note (title + body + emoji + hashtags).
 
@@ -26,21 +26,21 @@ ready-to-publish note (title + body + emoji + hashtags).
 
 ```bash
 curl -X POST "https://ai.wsdsocial.com/api/pub/skills/red-note-generator/_tool_86" \
-  -H "Content-Type: application/json" \
-  -H "key: ${WSD_API_KEY}" \
-  -d '{
-    "topic": "Top 5 skincare products for summer 2024",
-    "request": "Friendly tone, use emoji, include bullet points, 400-600 words"
-  }'
+-H "Content-Type: application/json" \
+-H "key: ${WSD_API_KEY}" \
+-d '{
+"topic": "Top 5 skincare products for summer 2024",
+"request": "Friendly tone, use emoji, include bullet points, 400-600 words"
+}'
 ```
 
 ## Parameters
 
-| Param     | Type   | Required | Description |
+| Param | Type | Required | Description |
 |-----------|--------|:--------:|-------------|
-| `topic`   | String | Yes      | The note topic / subject |
-| `request` | String | No       | Style, word count, format requirements |
+| `topic` | String | Yes | The note topic / subject |
+| `request` | String | No | Style, word count, format requirements |
 
 ## Response
 
-Returns the generated complete Xiaohongshu (RED) note content.
+Returns the generated complete social content-marketing note content.
